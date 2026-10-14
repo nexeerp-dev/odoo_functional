@@ -1,0 +1,1 @@
+const storyboards = Object.fromEntries(topics.map(t=>[t.id,{title:t.boardTitle,kind:t.kind,frames:t.frames}]));
